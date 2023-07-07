@@ -27,4 +27,25 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-left: 25px
+    padding-left: 25px;
+  }
+  
+  .wrapper-logo-info-with-title {
+    width: 100%;
+    display: flex;
+  }
+  
+  .info-wrapper__subtile-info {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 20px;
+  }
+  
+  
+  .color-blue{
+      color: #52BEDC
+  }

@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Kablammo&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/fonts/ofont.ru_Archangelsk.ttf" />
     <title>Document</title>
   </head>
   <body>
@@ -19,60 +18,73 @@
         <div class="main-header">
           <section class="header-wrapper">
             <div class="wrapper-social">
-              <div class="header-wrapper__title-logo title-logo">
-                <img
-                  src="./assets/images/home-image/logo-cyberpunk.svg"
-                  alt="logo cyberpunk"
-                />
-              </div>
-              <nav class="header-wrapper__wrapper wrapper">
-                <div class="wrapper__link-icon-wrapper link-icon-wrapper">
-                  <a><img src="./assets/images/media-icon/instagram.svg" /></a>
-                </div>
-                <div class="link-icon-wrapper">
-                  <a><img src="./assets/images/media-icon/youtube.svg" /></a>
-                </div>
-                <div class="link-icon-wrapper">
-                  <a><img src="./assets/images/media-icon/facebook.svg" /></a>
-                </div>
-                <div class="link-icon-wrapper">
-                  <a><img src="./assets/images/media-icon/twitch.svg" /></a>
-                </div>
-                <div class="link-icon-wrapper">
-                  <a><img src="./assets/images/media-icon/twitter.svg" /></a>
-                </div>
-                <div class="link-icon-wrapper">
-                  <a><img src="./assets/images/media-icon/vk.svg" /></a>
-                </div>
-              </nav>
+            <div class="header-wrapper__title-logo title-logo">
+              <img
+                src="./assets/images/home-image/logo-cyberpunk.svg"
+                alt="logo cyberpunk"
+              />
             </div>
+             
+            <nav class="header-wrapper__wrapper wrapper">
+              <div class="wrapper__link-icon-wrapper link-icon-wrapper">
+                <a><img src="./assets/images/media-icon/instagram.svg" /></a>
+              </div>
+              <div class="link-icon-wrapper">
+                <a><img src="./assets/images/media-icon/youtube.svg" /></a>
+              </div>
+              <div class="link-icon-wrapper">
+                <a><img src="./assets/images/media-icon/facebook.svg" /></a>
+              </div>
+              <div class="link-icon-wrapper">
+                <a><img src="./assets/images/media-icon/twitch.svg" /></a>
+              </div>
+              <div class="link-icon-wrapper">
+                <a><img src="./assets/images/media-icon/twitter.svg" /></a>
+              </div>
+              <div class="link-icon-wrapper">
+                <a><img src="./assets/images/media-icon/vk.svg" /></a>
+              </div>
+            </div>
+            </nav>
             <div class="aside-wrapper-home">
               <div class="square">
-                <p class="text-in-square">Доступно на всех платформах</p>
-                <div><button class="button-more">Узнать больше</button></div>
+                <div class="square-title"><p class="square-text-position">Доступно на всех платформах</p></div>
+                <div>
+                  <button class="square-btn">Узнать больше</button>
+                </div>
               </div>
             </div>
           </section>
         </div>
       </section>
+
       <section class="wrapper-section-info">
-        <div class="info-wrapper">
-       <div class="wrapper-logo-info-with-tile">
-          <div class="info-wrapper__info-logo info-logo"><img src="./assets/images/home-image/sale.svg" alt="sale"></div>
-          <div class="info-wrapper__title-info title-info">Играй и выигрывай!</div>
-        </div class>
-        <div>
-          <span></span>
-        </div>
-        <>
-        <div><input type="email" name="email" placeholder="Ваша электронная почта"></div>
-        <div><input type="password" name="password" placeholder="Ваш пароль" ></div>
-        <div><input type="file" name="file"></div>
-        <div><input type="checkbox" name="checkbox"></div>
-        <div><input type="checkbox" name="checkbox" ></div>
-        <div><input type="submit" name="btn" value="Отправить"></div>
-        </form>
+          <div class="info-wrapper">
+            <div class="wrapper-logo-info-with-title">
+              <div class="info-wrapper__info-logo info-logo">
+                <img src="./assets/images/home-image/sale.svg" alt="logo-info"/>
+              </div>
+              <div class="info-wrapper__title-info title-info">Играй и выигрывай!</div>
+            </div>
+            <div class="info-wrapper__subtile-info subtile-info">Играй в <span class="color-blue">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="color-blue">Xbox Series X</span> или <span class="color-blue">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</div>
+            <form>
+               <div><input type="text" name="firstName" placeholder="Как тебя зовут?"/></div>
+               <div><input type="password" name="password" placeholder="Твой е-mail"/></div>
+               <div><input type="file" name="file"/></div>
+               <div><input type="submit" name="btn" value="Отправить"/></div>
+               <div><input type="checkbox" name="checkbox"/></div>
+               <div><input type="checkbox" name="checkbox"/></div>
+               <div><input type="radio" name="radio"/></div>
+               <div><input type="radio" name="radio"/></div>
+               <textarea></textarea>
+               <select>
+                <option>cat</option>
+                <option>dog</option>
+               </select>
+            </form>
+          </div>
       </section>
+      
     </main>
   </body>
 </html>
